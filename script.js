@@ -16,7 +16,7 @@ function updateCompletedCount() {
     }
   }
   completedTasks.textContent = completedCount;
-}
+};
 
 // event listener för knappen
 addTaskButton.addEventListener("click", function () {
