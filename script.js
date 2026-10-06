@@ -27,6 +27,7 @@ addTaskButton.addEventListener("click", function () {
     warning.textContent = textInEmtyInputField ;
     return;
   }
+  warning.textContent = ""; // ta bort varning ifall de finns text i inputfältet
   const taskItem = document.createElement("li"); // skapa en li element
 
   const taskO = { text: taskText, completed: false }; // skapa ett objekt med text och completed egenskaper
